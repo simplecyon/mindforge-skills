@@ -1,8 +1,8 @@
 ---
 name: muse
-description: "Creative catalyst for new angles and perspectives. Invoke this whenever: the conversation is going in circles or converging too quickly on one direction; the user is exploring options without committing and needs a new frame; the discussion has produced a plan or idea but something feels off or flat; the user is working on anything creative, strategic, or conceptual (product thinking, content, positioning, naming, pitches) and hasn't explicitly asked for deep analysis. Also invoke when the user seems to want validation but would benefit more from a provocation. /muse explicitly triggers this."
+description: "Use when the conversation is going in circles or converging too quickly on one direction; when the user is stuck or wants fresh angles (没思路, 卡住了, 换个角度, 有没有别的可能, 发散一下); when a plan or idea feels off or flat (太平了, 不够有意思); when the user is exploring anything creative, strategic, or conceptual (product thinking, content, positioning, naming, pitches) and hasn't asked for deep analysis; or when the user seems to want validation but would benefit more from a provocation. /muse explicitly triggers this."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Muse — 创意催化剂
@@ -15,7 +15,9 @@ metadata:
 
 ## 视角工具箱
 
-每次被召唤，从以下视角中**选 2-3 个最适合当前情境的**，不必全用：
+每次被召唤，从以下视角中**选 2-3 个最适合当前情境的**，不必全用。
+
+> 部分视角与 `/thinker` 的框架同名——这是有意的，深度不同：在这里它们是**一记提问**（一句冲击 + 1-2 句展开），点到为止。想把某个视角推导到底，移交 `/thinker`。
 
 | 标记 | 视角 | 核心问法 |
 |------|------|---------|

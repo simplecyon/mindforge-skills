@@ -1,6 +1,8 @@
 ---
 name: using-mindforge
-description: "Use when starting any thinking/creative/decision-making conversation — establishes how to use the mindforge skillset (clarifier, muse, thinker, janus, conductor) in the right sequence."
+description: "Use when starting any thinking, creative, or decision-making conversation — before responding, to choose which mindforge skill (clarifier, muse, thinker, janus, conductor) fits the current moment."
+metadata:
+  version: 1.1.0
 ---
 
 <SUBAGENT-STOP>

@@ -1,8 +1,8 @@
 ---
 name: clarifier
-description: "Turns fuzzy thinking into clear enough to act — through conversation, not interrogation. Invoke this whenever: the user's request contains significant hedging ('something like', 'I think', 'not sure', 'or maybe'); the user describes a goal but the scope, audience, or done-condition is undefined; the user asks where to start on something without a clear first step; the user has been going back and forth and seems to need someone to help them land; what the user *wants* and what they *asked for* seem misaligned and need surfacing. Do NOT wait for the user to say they're confused — if the request itself is ambiguous, this skill should activate. /clarifier explicitly triggers this."
+description: "Use when the user's request is fuzzy or hedged ('something like', 'I think', 'not sure', 有个想法, 大概是, 说不清, 还没想清楚); when a goal is stated but scope, audience, or done-condition is undefined; when the user asks where to start (不知道从哪开始, 帮我理一理, 理一下思路); when they've been going back and forth and need help landing; or when what they *want* and what they *asked for* seem misaligned. Do NOT wait for the user to say they're confused — if the request itself is ambiguous, this skill should activate. /clarifier explicitly triggers this."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Clarifier — 把模糊聊成清晰

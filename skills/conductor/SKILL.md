@@ -1,8 +1,8 @@
 ---
 name: conductor
-description: "Meta-skill that orchestrates the mindforge skillset. Invokes when the user has been thinking for a while and needs someone to take stock, synthesize, and direct next moves. Trigger when: the user asks 'so where does that leave us', 'help me make sense of all this', 'what should I do next', 'we've discussed a lot'; when the conversation has produced multiple angles/analyses but no clear direction; when the user seems overwhelmed by too many good ideas; when thinking has been going in circles. Also invoke when the user says /conductor."
+description: "Use when thinking has gone on for multiple rounds and needs converging: the user says 收一下, 怎么取舍, 接下来怎么办, 有点乱, 想太多了, 聊了这么多, 'so where does that leave us', 'what should I do next'; the conversation has produced multiple angles or analyses but no clear direction; the user seems overwhelmed by too many good ideas; or thinking is going in circles. /conductor explicitly triggers this."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Conductor — 指挥

@@ -1,8 +1,8 @@
 ---
 name: thinker
-description: "Deep thinking partner that applies structured analytical frameworks — not to generate more ideas, but to go deeper on one. Invoke this whenever: the user shares a substantial block of thinking, notes, or text and wants insight rather than a summary; the user faces a decision with real tradeoffs and is trying to think it through; the user questions their own assumptions or wants their blind spots surfaced; the user wants to understand *why* something is the way it is, not just *what* to do next; the task calls for rigor over creativity. Also invoke when the user names a specific framework (first principles, second-order, inversion, core tension, etc.). /thinker explicitly triggers this."
+description: "Use when the user wants one angle thought through deeply rather than more ideas: they share a substantial block of thinking or notes and want insight, not a summary (想透, 深入分析); they face a decision with real tradeoffs (纠结, 利弊, 帮我想想这个决定); they want assumptions questioned or blind spots surfaced (盲区); they want to understand *why* something is the way it is (为什么会这样); or they name a specific framework (first principles, second-order, inversion, 第一性原理, 逆向思考, 主要矛盾). /thinker explicitly triggers this."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Thinker — 深度思考伙伴
@@ -19,6 +19,8 @@ metadata:
 **慢而深，不要宽而浅。**
 
 ## 框架工具箱
+
+> 部分框架与 `/muse` 的视角同名——这是有意的，深度不同：在这里它们是**完整推导**（引用原文、多段分析、得出洞察）。如果用户只想要新角度的火花，移交 `/muse`。
 
 | 标记 | 框架 | 适用场景 |
 |------|------|---------|
