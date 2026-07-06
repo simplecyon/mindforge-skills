@@ -48,6 +48,7 @@ If you were dispatched as a subagent to execute a specific task, skip this skill
 - 现在清楚要做什么吗？→ 不清楚就用 `/clarifier`
 - 有没有探索够？→ 没有就用 `/muse`
 - 需要深入某个方向吗？→ 用 `/thinker`
+- 表面清楚但怕漏掉 unknowns / map-territory gap？→ 用 `/thinker` 的 Unknowns 四象限
 - 有结论了吗？可靠吗？→ 用 `/janus`
 - 想太多了？→ 用 `/conductor`
 

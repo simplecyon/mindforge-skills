@@ -1,6 +1,6 @@
 ---
 name: thinker
-description: "Use when the user wants one angle thought through deeply rather than more ideas: they share a substantial block of thinking or notes and want insight, not a summary (想透, 深入分析); they face a decision with real tradeoffs (纠结, 利弊, 帮我想想这个决定); they want assumptions questioned or blind spots surfaced (盲区); they want to understand *why* something is the way it is (为什么会这样); or they name a specific framework (first principles, second-order, inversion, 第一性原理, 逆向思考, 主要矛盾). /thinker explicitly triggers this."
+description: "Use when the user wants one angle thought through deeply rather than more ideas: they share a substantial block of thinking or notes and want insight, not a summary (想透, 深入分析); they face a decision with real tradeoffs (纠结, 利弊, 帮我想想这个决定); they want assumptions questioned or blind spots surfaced (盲区); they want to understand *why* something is the way it is (为什么会这样); or they name a specific framework (first principles, second-order, inversion, unknowns, map/territory, 第一性原理, 逆向思考, 主要矛盾, 四象限). /thinker explicitly triggers this."
 metadata:
   version: 1.1.0
 ---
@@ -32,6 +32,7 @@ metadata:
 | 🌀 **复利飞轮** | 核心渴望 × 自然擅长 = 正反馈循环 | 个人/产品策略规划 |
 | 💡 **反直觉洞见** | 大多数人X，少数人Y——找那个真相 | 打破常识、寻找杠杆点 |
 | 🎭 **价值澄清** | 显性/隐性/冲突/错位的价值信号 | 方向迷失、动机不清 |
+| 🧭 **Unknowns 四象限** | 区分已知/未知、显性/隐性的任务差距 | 长任务开工前、实现跑偏、需要决定先澄清/原型/研究什么 |
 | 🕯️ **盲区探索** | 最关键的、当事人看不见的残酷真相 | 需要外部视角的自我审视 |
 | 🕰️ **时间地质层** | 沿时间轴挖历史压力与路径依赖 | 理解「为什么变成现在这样」 |
 

@@ -117,6 +117,36 @@
 
 ---
 
+## 🧭 Unknowns 四象限
+
+**核心**：区分 map 与 territory 之间的差距，把任务里的未知显性化，再决定下一步该澄清、原型、找参考，还是做 blind spot pass。
+
+适用场景：
+- 长任务开工前，表面目标清楚，但担心实现会跑偏
+- Agent 执行中频繁猜测用户意图、隐性标准或代码约束
+- 用户说“我不知道还有什么没想到”“帮我找 unknowns”“map is not territory”
+- 需要判断该先 `/clarifier`、`/muse`、代码/资料研究，还是直接执行
+
+四象限：
+- **Known knowns**：已经明确写进 prompt / 计划 / 上下文的内容，可以直接执行。
+- **Known unknowns**：用户知道还没想清楚的问题，适合先澄清、访谈、定边界。
+- **Unknown knowns**：用户有判断但还没语言化的隐性偏好，适合用原型、多方案、例子让 TA 反应。
+- **Unknown unknowns**：用户完全没意识到的约束、风险、机会，适合做 blind spot pass、读代码、查资料、找历史包袱。
+
+执行步骤：
+1. **画出 map**：当前 prompt、计划、假设、已有上下文是什么？
+2. **推测 territory**：真实代码库、用户、组织、时间、工具、历史约束可能是什么？
+3. **填四象限**：只列会改变计划或执行质量的 unknowns，不做百科式穷举。
+4. **指定下一步动作**：
+   - Known knowns → 直接执行或保留为执行约束
+   - Known unknowns → 交给 `/clarifier` 或做一轮 interview
+   - Unknown knowns → 交给 `/muse` 做 prototype / 多方案 / reference elicitation
+   - Unknown unknowns → 先研究、读代码、做 blind spot pass，再决定计划
+5. **收口成一句判断**：现在最应该降低的是哪一类 unknown，为什么它会改变结果？
+
+输出风格：像任务开工前的导航仪，不要像风险清单。重点不是“还有很多未知”，而是指出最值得先消除的未知。
+
+---
 ## 🕯️ 盲区探索
 
 **核心**：只给最关键的，不给多——3条残酷真相，精准、有价值。
