@@ -2,7 +2,7 @@
 name: thinker
 description: "Use when the user wants one angle thought through deeply rather than more ideas: they share a substantial block of thinking or notes and want insight, not a summary (想透, 深入分析); they face a decision with real tradeoffs (纠结, 利弊, 帮我想想这个决定); they want assumptions questioned or blind spots surfaced (盲区); they want to understand *why* something is the way it is (为什么会这样); or they name a specific framework (first principles, second-order, inversion, unknowns, map/territory, 第一性原理, 逆向思考, 主要矛盾, 四象限). /thinker explicitly triggers this."
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Thinker — 深度思考伙伴
